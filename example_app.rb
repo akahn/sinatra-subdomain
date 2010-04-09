@@ -10,8 +10,8 @@ subdomain :foo do |sub|
     "You are on: #{sub}"
   end
 
-  get '/' do
-    "Home!"
-  end
 end
 
+get '/' do
+  "Home!"
+end
