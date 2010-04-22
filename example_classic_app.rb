@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'sinatra/subdomain'
 
-# This is an example application that uses sinatra-subdomain. Start it using 
-# `shotgun -I lib example_app.rb`. Then visit http://smackaho.st:9393 and
+# This is an example of a classic application that uses sinatra-subdomain. Start it using 
+# `shotgun -I lib example_classic_app.rb`. Then visit http://smackaho.st:9393 and
 # http://foo.smackaho.st:9393 to use the application.
 
 subdomain :foo do |sub|
